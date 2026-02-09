@@ -1,12 +1,12 @@
 let input1 = document.querySelector(".question-one");
 let input2 = document.querySelector(".question-two");
 let button = document.querySelector("button");
-let change = document.querySelector(".change");
-let change2 = document.querySelector(".change2");
-let change3 = document.querySelector(".change3");
-let change4 = document.querySelector(".change4");
-let change5 = document.querySelector(".change5");
-let change6 = document.querySelector(".change6");
+let joy = document.querySelector(".joy");
+let coffee = document.querySelector(".coffee");
+let happy = document.querySelector(".happy");
+let relaxed = document.querySelector("relaxed");
+let upset = document.querySelector(".upset");
+let upsetB = document.querySelector(".upsetB");
 
 button.onclick = function () {
   console.log("button-works");
@@ -16,7 +16,7 @@ button.onclick = function () {
   console.log(answer2);
 
   if (answer1 < 5 && answer2 === "casual") {
-    document.querySelector("p").innerHTML = "You're Upset Man!";5
+    document.querySelector("p").innerHTML = "You're Upset Man!";
   } else if (answer1 === 5 && answer2 === "casual") {
     document.querySelector("p").innerHTML = "You're Relaxed Man!";
   } else if (answer1 > 5 && answer2 === "casual") {

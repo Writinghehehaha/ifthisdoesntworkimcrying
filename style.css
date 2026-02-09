@@ -70,37 +70,37 @@ input {
   margin: auto;
   width: 50%;
 }
-.change {
+.joy {
   display: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.change2 {
+.coffee {
   display: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.change3 {
+.happy {
   display: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.change4 {
+.relaxed {
   display: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.change5 {
+.upset {
   display: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.change6 {
+.upsetB {
   display: none;
   width: 100%;
   height: auto;
