@@ -22,21 +22,19 @@ body {
   border-radius: 8px;
 }
 h2 {
-  font-size: 2vw;
+  font-size: 2rem;
   font-family: "Verdana";
   color: #7d889a;
   text-align: center;
   font-style: italic;
-  text-shadow: 2px 2px 1px gray;
   word-spacing: 2px;
 }
 p {
-  font-size: 1.5vw;
   text-align: center;
   font-family: sans-serif;
-  color: #f4ac45;
+  color: #080808;
   font-size: 1.3rem;
-  text-shadow: 2px 2px 1px purple;
+  text-shadow: 2px 2px 1px rgb(190, 184, 228);
   word-spacing: 3px;
   font-weight: bold;
 }
