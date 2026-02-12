@@ -7,8 +7,9 @@ let happy = document.querySelector(".happy");
 let relaxed = document.querySelector("relaxed");
 let upset = document.querySelector(".upset");
 let upsetB = document.querySelector(".upsetB");
+let thinking = document.querySelector(".thinking");
 
-button.onclick = function () {
+button.addEventListener("click", function () {
   console.log("button-works");
   let answer1 = Number(input1.value);
   console.log(answer1);
@@ -16,7 +17,7 @@ button.onclick = function () {
   console.log(answer2);
 
   if (answer1 < 5 && answer2 === "casual" || answer2 === "Casual") {
-    document.querySelector("p").innerHTML = "You're Upset Man!";
+    document.querySelector("p").innerHTML = "You're Upset Man!"
   } else if (answer1 === 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Relaxed Man!";
   } else if (answer1 > 5 && answer2 === "casual" || answer2 === "Casual") {
@@ -27,4 +28,4 @@ button.onclick = function () {
     document.querySelector("p").innerHTML = "You're Coffee Man!";
   } else if (answer1 > 5 && answer2 === "formal" || answer2 === "Formal")
     document.querySelector("p").innerHTML = "You're Joyous Man!";
-};
+});
