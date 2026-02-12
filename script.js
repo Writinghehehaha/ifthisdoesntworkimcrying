@@ -18,6 +18,8 @@ button.addEventListener("click", function () {
 
   if (answer1 < 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Upset Man!"
+    document.querySelector(".upset").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
   } else if (answer1 === 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Relaxed Man!";
   } else if (answer1 > 5 && answer2 === "casual" || answer2 === "Casual") {
